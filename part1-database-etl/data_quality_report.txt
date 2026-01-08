@@ -1,0 +1,42 @@
+FlexiMart Data Quality Report
+Generated on: 2026-01-07
+
+EXTRACT SUMMARY
+---------------
+Customers records read: 26
+Products records read: 20
+Sales records read: 41
+
+DUPLICATE REMOVAL
+-----------------
+Customers duplicates removed: 1
+Products duplicates removed: 0
+Sales duplicates removed: 1
+
+MISSING VALUE HANDLING
+---------------------
+Customers rows removed: 5
+Products rows removed: 3
+Sales rows removed: 5
+
+DATE STANDARDIZATION
+-------------------
+Invalid sales dates removed: 10
+
+CATEGORY STANDARDIZATION
+-----------------------
+Product categories standardized to Title Case (e.g., electronics -> Electronics)
+
+PHONE STANDARDIZATION
+--------------------
+Phone numbers standardized to +91-XXXXXXXXXX; invalid/unknown set to 'Unknown'
+
+LOAD SUMMARY
+-----------
+Customers inserted: 0
+Customers skipped (duplicates): 15
+Products inserted: 17
+Orders inserted: 15
+Order items inserted: 15
+Sales rows skipped (missing customer/product mapping): 10
+
